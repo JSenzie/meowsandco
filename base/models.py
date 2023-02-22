@@ -20,12 +20,12 @@ class Product(models.Model):
     size = models.CharField(max_length=20, null=True, blank=True)
 
     CONDITION_CHOICES = [
-        ('P', 'Poor'),
-        ('G', 'Good'),
-        ('VG', 'Very Good'),
-        ('N', 'New'),
+        ('Poor', 'Poor'),
+        ('Good', 'Good'),
+        ('Very Good', 'Very Good'),
+        ('New', 'New'),
     ]
-    condition = models.CharField(max_length=2, null=True, blank=True, choices=CONDITION_CHOICES)
+    condition = models.CharField(max_length=20, null=True, blank=True, choices=CONDITION_CHOICES)
 
     category =models.CharField(max_length=20, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
