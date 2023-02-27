@@ -5,6 +5,8 @@ function Terms() {
     <div>
       <h1>TERMS OF SERVICE</h1>
 
+      <p>This website is currently for DEMO PURPOSES ONLY! Nothing is actually for sale.</p>
+
       <p>----</p>
 
       <h2>OVERVIEW</h2>
