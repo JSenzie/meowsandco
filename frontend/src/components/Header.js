@@ -91,6 +91,14 @@ function Header() {
 
   return (
     <div>
+      <style type="text/css">
+        {`
+    .navbar-dark {
+      border-radius: 0px 0px 15px 15px;
+    }
+
+    `}
+      </style>
       <header>
         <Navbar bg="dark" variant="dark" expand="lg" collapseOnSelect>
           <Container className="mx-3">
@@ -128,7 +136,7 @@ function Header() {
             </Navbar.Collapse>
           </Container>
         </Navbar>
-        <Navbar bg="light" expand="lg" className="px-3">
+        <Navbar bg="light" expand="lg" className="px-3 border-0 border-bottom">
           <Container fluid>
             <Nav>
               <NavDropdown title="Brands" id="basic-nav-dropdown">
